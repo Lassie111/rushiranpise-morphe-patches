@@ -76,6 +76,22 @@ internal object InitializeFeaturesEnumFingerprint : Fingerprint(
     strings = listOf("com.google.android.apps.photos.NEXUS_PRELOAD"),
 )
 
+// Matches the StorageQuotaInfo constructor. Its first boolean parameter is
+// unlimitedStorageQuota, the field the backup-settings UI reads to decide whether
+// to show the "unlimited storage" label instead of a usage bar. That field is
+// populated from the account's Play-Services-synced quota data, not from the
+// Pixel feature spoof, so genuine Pixel hardware hides the label. Anchored on the
+// stable toString() literal, which survives R8 obfuscation of the class name.
+internal object StorageQuotaInfoConstructorFingerprint : Fingerprint(
+    returnType = "V",
+    custom = { method, classDef ->
+        method.name == "<init>" &&
+            method.parameterTypes.firstOrNull() == "Z" &&
+            method.parameterTypes.size >= 10 &&
+            classDef.hasMethodReferencingString("StorageQuotaInfo{unlimitedStorageQuota=")
+    },
+)
+
 // Matches the AccountValidityMonitor.onResume-equivalent that enqueues CheckAccountTask.
 // Under MicroG this method clears the selected account, so we suppress it entirely.
 // Anchored on the two log-tag strings that appear in sibling methods of the same class
