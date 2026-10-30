@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.23.1",
+  "version": "1.24.0-dev.1",
   "patches": [
     {
       "name": "AAAD Premium",
@@ -79,12 +79,12 @@
           "signatures": null,
           "targets": [
             {
-              "version": "7.98.0.1001971222",
+              "version": "7.98.0.1007591100",
               "versionCodes": {
-                "ARM64_V8A": 52589059,
-                "ARMEABI_V7A": 52589059,
-                "X86_64": 52589059,
-                "X86": 52589059
+                "ARM64_V8A": 52591199,
+                "ARMEABI_V7A": 52591199,
+                "X86_64": 52591199,
+                "X86": 52591199
               },
               "isExperimental": false,
               "minSdk": null,
@@ -661,12 +661,12 @@
           "signatures": null,
           "targets": [
             {
-              "version": "7.98.0.1001971222",
+              "version": "7.98.0.1007591100",
               "versionCodes": {
-                "ARM64_V8A": 52589059,
-                "ARMEABI_V7A": 52589059,
-                "X86_64": 52589059,
-                "X86": 52589059
+                "ARM64_V8A": 52591199,
+                "ARMEABI_V7A": 52591199,
+                "X86_64": 52591199,
+                "X86": 52591199
               },
               "isExperimental": false,
               "minSdk": null,
@@ -762,12 +762,12 @@
           "signatures": null,
           "targets": [
             {
-              "version": "7.98.0.1001971222",
+              "version": "7.98.0.1007591100",
               "versionCodes": {
-                "ARM64_V8A": 52589059,
-                "ARMEABI_V7A": 52589059,
-                "X86_64": 52589059,
-                "X86": 52589059
+                "ARM64_V8A": 52591199,
+                "ARMEABI_V7A": 52591199,
+                "X86_64": 52591199,
+                "X86": 52591199
               },
               "isExperimental": false,
               "minSdk": null,
@@ -1434,12 +1434,12 @@
           "signatures": null,
           "targets": [
             {
-              "version": "7.98.0.1001971222",
+              "version": "7.98.0.1007591100",
               "versionCodes": {
-                "ARM64_V8A": 52589059,
-                "ARMEABI_V7A": 52589059,
-                "X86_64": 52589059,
-                "X86": 52589059
+                "ARM64_V8A": 52591199,
+                "ARMEABI_V7A": 52591199,
+                "X86_64": 52591199,
+                "X86": 52591199
               },
               "isExperimental": false,
               "minSdk": null,
@@ -1549,12 +1549,12 @@
           "signatures": null,
           "targets": [
             {
-              "version": "7.98.0.1001971222",
+              "version": "7.98.0.1007591100",
               "versionCodes": {
-                "ARM64_V8A": 52589059,
-                "ARMEABI_V7A": 52589059,
-                "X86_64": 52589059,
-                "X86": 52589059
+                "ARM64_V8A": 52591199,
+                "ARMEABI_V7A": 52591199,
+                "X86_64": 52591199,
+                "X86": 52591199
               },
               "isExperimental": false,
               "minSdk": null,
@@ -1592,12 +1592,12 @@
           "signatures": null,
           "targets": [
             {
-              "version": "7.98.0.1001971222",
+              "version": "7.98.0.1007591100",
               "versionCodes": {
-                "ARM64_V8A": 52589059,
-                "ARMEABI_V7A": 52589059,
-                "X86_64": 52589059,
-                "X86": 52589059
+                "ARM64_V8A": 52591199,
+                "ARMEABI_V7A": 52591199,
+                "X86_64": 52591199,
+                "X86": 52591199
               },
               "isExperimental": false,
               "minSdk": null,
@@ -3123,6 +3123,37 @@
       "options": []
     },
     {
+      "name": "Show unlimited storage label",
+      "description": "Forces Google Photos to show the unlimited-storage label. Genuine Pixel hardware otherwise hides it because the quota flag comes from Play Services, not the spoof.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.google.android.apps.photos",
+          "name": "Google Photos",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#4285F4",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "7.98.0.1007591100",
+              "versionCodes": {
+                "ARM64_V8A": 52591199,
+                "ARMEABI_V7A": 52591199,
+                "X86_64": 52591199,
+                "X86": 52591199
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
       "name": "Spoof WARP+ Unlimited UI",
       "description": "Forces WarpPlusState to UNLIMITED on every AccountData instance by intercepting the primary constructor before the account type field is written.",
       "default": true,
@@ -3226,12 +3257,12 @@
           "signatures": null,
           "targets": [
             {
-              "version": "7.98.0.1001971222",
+              "version": "7.98.0.1007591100",
               "versionCodes": {
-                "ARM64_V8A": 52589059,
-                "ARMEABI_V7A": 52589059,
-                "X86_64": 52589059,
-                "X86": 52589059
+                "ARM64_V8A": 52591199,
+                "ARMEABI_V7A": 52591199,
+                "X86_64": 52591199,
+                "X86": 52591199
               },
               "isExperimental": false,
               "minSdk": null,
@@ -3450,12 +3481,12 @@
           "signatures": null,
           "targets": [
             {
-              "version": "25.2.1",
+              "version": "25.2.2",
               "versionCodes": {
-                "ARM64_V8A": 534,
-                "ARMEABI_V7A": 534,
-                "X86_64": 534,
-                "X86": 534
+                "ARM64_V8A": 535,
+                "ARMEABI_V7A": 535,
+                "X86_64": 535,
+                "X86": 535
               },
               "isExperimental": false,
               "minSdk": null,
@@ -4848,12 +4879,12 @@
           "signatures": null,
           "targets": [
             {
-              "version": "2026.10.2",
+              "version": "2026.10.4",
               "versionCodes": {
-                "ARM64_V8A": 635,
-                "ARMEABI_V7A": 635,
-                "X86_64": 635,
-                "X86": 635
+                "ARM64_V8A": 637,
+                "ARMEABI_V7A": 637,
+                "X86_64": 637,
+                "X86": 637
               },
               "isExperimental": false,
               "minSdk": null,
@@ -5070,12 +5101,12 @@
           "signatures": null,
           "targets": [
             {
-              "version": "4.8.8",
+              "version": "4.9.4",
               "versionCodes": {
-                "ARM64_V8A": 2104880,
-                "ARMEABI_V7A": 2104880,
-                "X86_64": 2104880,
-                "X86": 2104880
+                "ARM64_V8A": 2104940,
+                "ARMEABI_V7A": 2104940,
+                "X86_64": 2104940,
+                "X86": 2104940
               },
               "isExperimental": false,
               "minSdk": null,
@@ -5166,12 +5197,12 @@
           "signatures": null,
           "targets": [
             {
-              "version": "26.42.1",
+              "version": "26.43.0",
               "versionCodes": {
-                "ARM64_V8A": 26420101,
-                "ARMEABI_V7A": 26420101,
-                "X86_64": 26420101,
-                "X86": 26420101
+                "ARM64_V8A": 26430005,
+                "ARMEABI_V7A": 26430005,
+                "X86_64": 26430005,
+                "X86": 26430005
               },
               "isExperimental": false,
               "minSdk": null,
@@ -5228,12 +5259,12 @@
           "signatures": null,
           "targets": [
             {
-              "version": "2.1.07",
+              "version": "2.1.08",
               "versionCodes": {
-                "ARM64_V8A": 37,
-                "ARMEABI_V7A": 37,
-                "X86_64": 37,
-                "X86": 37
+                "ARM64_V8A": 38,
+                "ARMEABI_V7A": 38,
+                "X86_64": 38,
+                "X86": 38
               },
               "isExperimental": false,
               "minSdk": null,
@@ -5976,12 +6007,12 @@
           "signatures": null,
           "targets": [
             {
-              "version": "26.43.0",
+              "version": "26.43.1",
               "versionCodes": {
-                "ARM64_V8A": 26430027,
-                "ARMEABI_V7A": 26430027,
-                "X86_64": 26430027,
-                "X86": 26430027
+                "ARM64_V8A": 26430103,
+                "ARMEABI_V7A": 26430103,
+                "X86_64": 26430103,
+                "X86": 26430103
               },
               "isExperimental": false,
               "minSdk": null,
@@ -6665,12 +6696,12 @@
           "signatures": null,
           "targets": [
             {
-              "version": "1.32.1",
+              "version": "1.33",
               "versionCodes": {
-                "ARM64_V8A": 300,
-                "ARMEABI_V7A": 300,
-                "X86_64": 300,
-                "X86": 300
+                "ARM64_V8A": 303,
+                "ARMEABI_V7A": 303,
+                "X86_64": 303,
+                "X86": 303
               },
               "isExperimental": false,
               "minSdk": null,
@@ -6979,12 +7010,12 @@
           "signatures": null,
           "targets": [
             {
-              "version": "1.3.2",
+              "version": "1.3.5",
               "versionCodes": {
-                "ARM64_V8A": 19,
-                "ARMEABI_V7A": 19,
-                "X86_64": 19,
-                "X86": 19
+                "ARM64_V8A": 22,
+                "ARMEABI_V7A": 22,
+                "X86_64": 22,
+                "X86": 22
               },
               "isExperimental": false,
               "minSdk": null,
@@ -7975,12 +8006,12 @@
           "signatures": null,
           "targets": [
             {
-              "version": "2.3.87",
+              "version": "2.3.97",
               "versionCodes": {
-                "ARM64_V8A": 780,
-                "ARMEABI_V7A": 780,
-                "X86_64": 780,
-                "X86": 780
+                "ARM64_V8A": 790,
+                "ARMEABI_V7A": 790,
+                "X86_64": 790,
+                "X86": 790
               },
               "isExperimental": false,
               "minSdk": null,
@@ -8848,12 +8879,12 @@
           "signatures": null,
           "targets": [
             {
-              "version": "3.5.4",
+              "version": "3.6.0",
               "versionCodes": {
-                "ARM64_V8A": 3050406,
-                "ARMEABI_V7A": 3050406,
-                "X86_64": 3050406,
-                "X86": 3050406
+                "ARM64_V8A": 3060000,
+                "ARMEABI_V7A": 3060000,
+                "X86_64": 3060000,
+                "X86": 3060000
               },
               "isExperimental": false,
               "minSdk": null,

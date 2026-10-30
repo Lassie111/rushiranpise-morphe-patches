@@ -1,6 +1,6 @@
 # Patches
 
-> Generated from `patches-list.json` — **v1.23.1** (`main`) · **317 patches** across **227 apps** · back to [README](README.md)
+> Generated from `patches-list.json` — **v1.24.0-dev.1** (`dev`) · **318 patches** across **227 apps** · back to [README](README.md)
 
 ---
 
@@ -453,7 +453,7 @@
 
 ## calimoto (com.calimoto.calimoto)
 
-**Supported versions:** `2026.10.2`
+**Supported versions:** `2026.10.4`
 
 | Patch | Details |
 |---|---|
@@ -604,7 +604,7 @@
 
 ## ColorNote (com.socialnmobile.dictapps.notepad.color.note)
 
-**Supported versions:** `4.8.8`
+**Supported versions:** `4.9.4`
 
 | Patch | Details |
 |---|---|
@@ -634,7 +634,7 @@
 
 ## Crime Radar (com.newsbreak.crimeradar)
 
-**Supported versions:** `26.42.1`
+**Supported versions:** `26.43.0`
 
 | Patch | Details |
 |---|---|
@@ -675,7 +675,7 @@
 
 ## Depth Live Wallpaper (com.jndapp.depth.live.wallpaper)
 
-**Supported versions:** `2.1.07`
+**Supported versions:** `2.1.08`
 
 | Patch | Details |
 |---|---|
@@ -827,7 +827,7 @@
 
 ## Google Photos (com.google.android.apps.photos)
 
-**Supported versions:** `7.98.0.1001971222`
+**Supported versions:** `7.98.0.1007591100`
 
 | Patch | Details |
 |---|---|
@@ -837,6 +837,7 @@
 | **Enable DCIM folders backup control** | Allows controlling Camera and other DCIM folder backup individually. |
 | **Fix DCIM folder classification** | Prevents non-Camera DCIM folders from being grouped as Camera. |
 | **GmsCore support** | Adds MicroG/GmsCore support metadata for Google Photos. |
+| **Show unlimited storage label** | Forces Google Photos to show the unlimited-storage label. Genuine Pixel hardware otherwise hides it because the quota flag comes from Play Services, not the spoof. |
 | **Spoof features** | Spoofs selectable Pixel Photos build and feature flags.<br><sub>Options: Pixel profile, Android version, Override ROM feature levels</sub> |
 
 ---
@@ -943,7 +944,7 @@
 
 ## Inmigreat (com.changayaf.inmigreat)
 
-**Supported versions:** `2.3.87`
+**Supported versions:** `2.3.97`
 
 | Patch | Details |
 |---|---|
@@ -1326,7 +1327,7 @@
 
 ## NewsBreak (com.particlenews.newsbreak)
 
-**Supported versions:** `26.43.0`
+**Supported versions:** `26.43.1`
 
 | Patch | Details |
 |---|---|
@@ -1376,7 +1377,7 @@
 
 ## nzb360 (com.kevinforeman.nzb360)
 
-**Supported versions:** `25.2.1`
+**Supported versions:** `25.2.2`
 
 | Patch | Details |
 |---|---|
@@ -1758,7 +1759,7 @@
 
 ## SCRL (com.appostrophe.scrl)
 
-**Supported versions:** `1.32.1`
+**Supported versions:** `1.33`
 
 | Patch | Details |
 |---|---|
@@ -1898,7 +1899,7 @@
 
 ## Stargazing Hub (com.twtapp)
 
-**Supported versions:** `3.5.4`
+**Supported versions:** `3.6.0`
 
 | Patch | Details |
 |---|---|
@@ -1958,7 +1959,7 @@
 
 ## Tag Tracker (com.makeevapps.tagtracker)
 
-**Supported versions:** `1.3.2`
+**Supported versions:** `1.3.5`
 
 | Patch | Details |
 |---|---|
