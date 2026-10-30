@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.23.1",
+  "version": "1.24.0",
   "patches": [
     {
       "name": "AAAD Premium",
@@ -3112,6 +3112,37 @@
                 "ARMEABI_V7A": 988,
                 "X86_64": 988,
                 "X86": 988
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Show unlimited storage label",
+      "description": "Forces Google Photos to show the unlimited-storage label. Genuine Pixel hardware otherwise hides it because the quota flag comes from Play Services, not the spoof.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.google.android.apps.photos",
+          "name": "Google Photos",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#4285F4",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "7.98.0.1001971222",
+              "versionCodes": {
+                "ARM64_V8A": 52589059,
+                "ARMEABI_V7A": 52589059,
+                "X86_64": 52589059,
+                "X86": 52589059
               },
               "isExperimental": false,
               "minSdk": null,

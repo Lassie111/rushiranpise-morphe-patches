@@ -93,7 +93,7 @@ Bug reports must include:
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
-> **[v1.23.1](https://github.com/rushiranpise/morphe-patches/releases/tag/v1.23.1)**&nbsp;&nbsp;&middot;&nbsp;&nbsp;`main`&nbsp;&nbsp;&middot;&nbsp;&nbsp;**317 patches** across **227 apps**&nbsp;&nbsp;&middot;&nbsp;&nbsp;[Full details](PATCHES.md)
+> **[v1.24.0](https://github.com/Lassie111/rushiranpise-morphe-patches/releases/tag/v1.24.0)**&nbsp;&nbsp;&middot;&nbsp;&nbsp;`main`&nbsp;&nbsp;&middot;&nbsp;&nbsp;**318 patches** across **227 apps**&nbsp;&nbsp;&middot;&nbsp;&nbsp;[Full details](PATCHES.md)
 
 | # | App | Patches | Version | Package |
 |---|---|---|---|---|
@@ -177,7 +177,7 @@ Bug reports must include:
 | 78 | [**Flud**](PATCHES.md#flud-comdelphicoderflud) | 1 | `2.2.2` | [`com.delphicoder.flud`](https://play.google.com/store/apps/details?id=com.delphicoder.flud) |
 | 79 | [**Fuelio**](PATCHES.md#fuelio-comkajdafuelio) | 1 | `10.3.4` | [`com.kajda.fuelio`](https://play.google.com/store/apps/details?id=com.kajda.fuelio) |
 | 80 | [**Genius Scan**](PATCHES.md#genius-scan-comthegrizzlylabsgeniusscanfree) | 1 | `7.41.0` | [`com.thegrizzlylabs.geniusscan.free`](https://play.google.com/store/apps/details?id=com.thegrizzlylabs.geniusscan.free) |
-| 81 | [**Google Photos**](PATCHES.md#google-photos-comgoogleandroidappsphotos) | 7 | `7.98.0.1001971222` | [`com.google.android.apps.photos`](https://play.google.com/store/apps/details?id=com.google.android.apps.photos) |
+| 81 | [**Google Photos**](PATCHES.md#google-photos-comgoogleandroidappsphotos) | 8 | `7.98.0.1001971222` | [`com.google.android.apps.photos`](https://play.google.com/store/apps/details?id=com.google.android.apps.photos) |
 | 82 | [**Greenify**](PATCHES.md#greenify-comoasisfenggreenify) | 1 | `5.1.1` | [`com.oasisfeng.greenify`](https://play.google.com/store/apps/details?id=com.oasisfeng.greenify) |
 | 83 | [**HD UHD Live Wallpapers**](PATCHES.md#hd-uhd-live-wallpapers-hduhdlivewallpaperstopwallpapers) | 1 | `7.0.1` | [`hd.uhd.live.wallpapers.topwallpapers`](https://play.google.com/store/apps/details?id=hd.uhd.live.wallpapers.topwallpapers) |
 | 84 | [**Height Increase**](PATCHES.md#height-increase-increaseheightworkoutheightincreaseexercisetallerexercise) | 1 | `1.1.17` | [`increaseheightworkout.heightincreaseexercise.tallerexercise`](https://play.google.com/store/apps/details?id=increaseheightworkout.heightincreaseexercise.tallerexercise) |

@@ -1,6 +1,6 @@
 # Patches
 
-> Generated from `patches-list.json` — **v1.23.1** (`main`) · **317 patches** across **227 apps** · back to [README](README.md)
+> Generated from `patches-list.json` — **v1.24.0** (`main`) · **318 patches** across **227 apps** · back to [README](README.md)
 
 ---
 
@@ -837,6 +837,7 @@
 | **Enable DCIM folders backup control** | Allows controlling Camera and other DCIM folder backup individually. |
 | **Fix DCIM folder classification** | Prevents non-Camera DCIM folders from being grouped as Camera. |
 | **GmsCore support** | Adds MicroG/GmsCore support metadata for Google Photos. |
+| **Show unlimited storage label** | Forces Google Photos to show the unlimited-storage label. Genuine Pixel hardware otherwise hides it because the quota flag comes from Play Services, not the spoof. |
 | **Spoof features** | Spoofs selectable Pixel Photos build and feature flags.<br><sub>Options: Pixel profile, Android version, Override ROM feature levels</sub> |
 
 ---

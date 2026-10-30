@@ -1,3 +1,9 @@
+## [1.24.0](https://github.com/Lassie111/rushiranpise-morphe-patches/compare/v1.23.1...v1.24.0) (2026-10-30)
+
+### ✨ New Features
+
+* **google-photos:** show unlimited storage label on genuine Pixels ([384533e](https://github.com/Lassie111/rushiranpise-morphe-patches/commit/384533ea32155a9db91792f9bb36184c9d3b1fe2))
+
 ## [1.23.1](https://github.com/rushiranpise/morphe-patches/compare/v1.23.0...v1.23.1) (2026-10-28)
 
 ### 🐛 Bug Fixes
